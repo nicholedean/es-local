@@ -1,0 +1,98 @@
+{
+	"settings": {
+		"number_of_shards": 3,
+		"number_of_replicas": 2,
+		"refresh_interval": "1s"
+	},
+	"mappings": {
+		"job": {
+			"properties": {
+				"advertiser_country_code": {
+					"type": "text"
+				},
+				"global_job_id": {
+					"type": "long"
+				},
+				"blind_flag": {
+					"type": "boolean"
+				},
+				"posting_date_start": {
+					"type": "date"
+				},
+				"role": {
+					"type": "long"
+				},
+				"industry_code": {
+					"type": "long"
+				},
+				"application_deadline": {
+					"type": "date"
+				},
+				"position_title": {
+					"type": "text"
+				},
+				"salary_currency": {
+					"type": "long"
+				},
+				"years_of_experience": {
+					"type": "long"
+				},
+				"work_state_code": {
+					"type": "text"
+				},
+				"advertiser_id": {
+					"type": "long"
+				},
+				"posting_date_end": {
+					"type": "date"
+				},
+				"last_update": {
+					"type": "date"
+				},
+				"mandatory_skill_keyword": {
+					"type": "text"
+				},
+				"work_country_code": {
+					"type": "text"
+				},
+				"max_monthly_salary": {
+					"type": "long"
+				},
+				"employment_type_code": {
+					"type": "long"
+				},
+				"server_id": {
+					"type": "long"
+				},
+				"qualification": {
+					"type": "long"
+				},
+				"nationality": {
+					"type": "text"
+				},
+				"job_id": {
+					"type": "long"
+				},
+				"company_name": {
+					"type": "text"
+				},
+				"min_monthly_salary": {
+					"type": "long"
+				},
+				"specialization": {
+					"type": "long"
+				},
+				"field_of_study_code": {
+					"type": "long"
+				},
+				"position_level_code": {
+					"type": "long"
+				},
+				"work_location_desc": {
+					"type": "text"
+				}
+			}
+		}
+
+	}
+}

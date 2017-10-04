@@ -1,0 +1,13 @@
+http.host: 0.0.0.0
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+
+# Uncomment the following lines for a production cluster deployment
+cluster.name: my-es-cluster
+node.master: false
+node.data: true
+node.name: ${NODE_NAME}
+
+transport.host: 0.0.0.0
+discovery.zen.minimum_master_nodes: 1
+discovery.zen.ping.unicast.hosts: es_master
